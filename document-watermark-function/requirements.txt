@@ -1,0 +1,13 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-storage-blob
+requests~=2.32.3
+azure-functions
+PyPDF2~=3.0.1
+reportlab~=4.2.2
+docx2pdf
+python-docx
+psycopg2-binary

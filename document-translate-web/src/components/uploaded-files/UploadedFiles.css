@@ -1,0 +1,11 @@
+.progressing::before {
+  content: "";
+  border: 2px solid rgb(103, 4, 190);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  position: absolute;
+  display: block;
+  top: -3px;
+  left: -3px;
+  border-radius: 100%;
+}

@@ -1,0 +1,54 @@
+/* src/components/Authentication.css */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.auth-header {
+  background-color: #4f46e5; /* Tailwind Indigo-900 */
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.auth-form {
+  background: white;
+  padding: 20px;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.login-button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

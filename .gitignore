@@ -1,0 +1,97 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+*.pyc
+**/__pycache__/
+*.pyo
+*.pyd
+*.env
+**/.venv/
+env/
+**/venv/
+**/.Python
+**/.pytest_cache/
+**/.sqlite3
+**/.db
+**/.egg
+**/.egg-info
+**/.egg/
+**/.manifest
+*.spec
+*.log
+*.bak
+*.swp
+*.tmp
+*.old
+*.orig
+*.orig.*
+*.rej
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+**/__pycache__/
+*.pytest_cache
+*.py[cod]
+*$py.class
+instance/
+.webassets-cache
+.scrapy
+
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+**/.idea/
+
+# Azure Functions
+**/local.settings.json
+*.azurefunctions/
+*.azureconfig
+
+# Node.js
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+**variables.ps1
+*.bkp
+# Docker
+docker-compose.override.yml
+
+# Specific project folders
+**/.idea/
+**/.venv/
+**/.vscode/
+**/__pycache__/
+**/.pytest_cache/
+**/.python_packages/
+**/tests
+**/.dockerignore
+**/.github/
+**/node_modules/
+**/.vscode/
+**/.vscode/
+**/local.settings.json
+
+# Ignore specific file types
+*.log
+*.bak
+*.swp
+*.tmp
+*.old
+*.orig
+*.orig.*
+*.rej
